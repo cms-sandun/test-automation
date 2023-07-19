@@ -6,9 +6,9 @@ describe("Page Load and List Check", () => {
       .should("be.visible")
       .within(() => {
         cy.get("li").should("have.length.at.least", 3);
-        cy.contains("Sanadamali");
-        cy.contains("Ed");
-        cy.contains("Paul");
+        cy.contains("User 1");
+        cy.contains("User 2");
+        cy.contains("User 3");
       });
   });
 });

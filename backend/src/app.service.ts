@@ -6,15 +6,15 @@ export class AppService {
     const data = [
       {
         id: 1,
-        name: 'Sanadamali',
+        name: 'User 1',
       },
       {
         id: 2,
-        name: 'Ed',
+        name: 'User 2',
       },
       {
         id: 3,
-        name: 'Paul',
+        name: 'User 3',
       },
     ];
     return data;
